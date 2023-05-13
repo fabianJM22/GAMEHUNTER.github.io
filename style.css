@@ -1,0 +1,434 @@
+ body {
+    background-image: url(images/este.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.loga{
+    width: 120px;
+    margin: 5px -90px;
+  
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+header .logo{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 300px;
+}
+header ul li {
+    list-style: none;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+header ul li a:hover{
+    background: black;
+    color: brown;
+    box-shadow: 0 0 10px black;
+
+}
+header .action .searchBx{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+}
+header .action .searchBx i{
+    font-size: 1.4em;
+    margin: 5px;
+    color: black;
+  
+}
+header .action .searchBx input{
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.banner {
+    position: relative;
+    width: 100;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.banner .bg {
+    position: relative;
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    justify-content: left; 
+    
+}
+.banner .bg .content{
+ width: 50%;
+ height: 100%;
+
+ 
+}
+.banner .bg .content h2{
+    font-size: 4em;
+    color: white;
+    letter-spacing: 1px;
+    margin: 120px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+}
+.banner .bg .content p{
+    font-size: 1em;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: -80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.banner .bg .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid rgb(244, 244, 244);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+
+}
+.banner.bg .content a:hover{
+    background: rgb(16, 16, 15);
+    border: none;
+    color: rgb(77, 8, 8);
+    box-shadow: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner .bg img{
+    width: 600px;
+}
+/* about */ 
+.about{
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.about .contentBx {
+    width: 50%;
+    margin: 20px;
+    }
+.about .contentBx h2 {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    
+    
+}
+.about .contentBx p{
+    max-width: 600px;
+    text-align: justify;
+    color:white;
+    
+
+}
+.about .contentBx a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid rgb(244, 244, 244);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+.about .contentBx a:hover{
+    background: rgb(69, 8, 8);
+    border: none;
+    color: rgb(115, 2, 2);
+    box-shadow: 0 0 10px black;
+  
+}
+
+/* Games */
+.games {
+    padding: 0px 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+  
+}
+.games h2{
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.games ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    
+}
+.games ul li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: white;
+   
+  
+}
+.games ul li.active{
+    background: rgb(244, 244, 244);
+    color: rgb(10, 8, 8);
+    box-shadow: 0 0 10px white;
+    
+}
+.games .cardBx{
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.games .cardBx .card{
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 80px;
+    background: rgb(248, 248, 248);
+    overflow: hidden;
+  
+
+}
+.games .cardBx .card img{
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+  
+}
+.games .cardBx .card .content{
+    padding: -10px;
+  
+
+}
+.games .cardBx .card .content h4{
+    color: rgb(0, 0, 0);
+    margin: 10px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.games .cardBx .card .progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: rgb(35, 188, 11);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+   
+}
+.games .cardBx .card .progress-line span{
+    position: absolute;
+    height: 100%;
+    width: 88%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(242, 240, 240);
+    transform-origin: left;
+
+}
+.games .cardBx .card .info {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.games .cardBx .card .info p{
+    font-size: 1em;
+    color: rgb(16, 11, 11);
+    margin: 10px 8px;
+    margin-top: -30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+}
+.games .cardBx .card .info p span{
+    color: rgb(7, 7, 7);
+   
+}
+.games .cardBx .card .info a{
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 0;
+        margin-top: -30px;
+        border: 1px solid rgb(4, 4, 4);
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 5px;
+        color: rgb(8, 7, 7);
+        letter-spacing: 1px;
+     
+    
+    }
+    .games .cardBx .card .info a:hover{
+        background: rgb(69, 8, 8);
+        border: none;
+        color: rgb(251, 251, 251);
+        box-shadow: 0 0 10px rgb(243, 241, 241);
+      
+      
+    }
+  .tournaments {
+    padding: 0px 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .tournaments h2{
+    color: rgb(249, 241, 241);
+    margin: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .tournaments .boxBx {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .tournaments .boxBx .box {
+    width: 350px;
+    border-radius:  10px;
+    margin: 20px 40px;
+    background: rgba(8, 7, 7, 0.901);
+    overflow: hidden;
+  }
+  .tournaments .boxBx .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .tournaments .boxBx .box .content{
+    padding: 10px;
+  }
+  .tournaments .boxBx .box .content h4{
+    color: rgb(252, 16, 16);
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .tournaments .boxBx .box .content h4 span{
+    color: rgb(247, 245, 245);
+    
+  }
+  .tournaments .boxBx .box .content p{
+    text-align: justify;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .tournaments .boxBx .box .content .btn{
+    display: flex;
+    justify-content: space-between;
+  }
+  .tournaments .boxBx .box .content .Ver{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 1px solid rgb(247, 247, 255);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: rgb(255, 250, 250);
+    letter-spacing: 1px;
+  }
+  .tournaments .boxBx .box .content .Ver:hover{
+    background: rgb(236, 12, 12);
+    border: none;
+    color: rgb(251, 246, 246);
+    box-shadow: 0 0 10px rgb(240, 240, 240);
+  }
+
+  .tournaments .boxBx .box .content .join{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 1px solid rgb(247, 247, 255);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: rgb(8, 7, 7);
+    letter-spacing: 1px;
+  }
+  .tournaments .boxBx .box .content .join:hover{
+    background: rgb(239, 11, 11);
+    border: none;
+    color: rgb(6, 5, 5);
+    box-shadow: 0 0 10px rgb(240, 240, 240);
+  }
+
+  
+
+    
+
+
